@@ -201,7 +201,8 @@
 
 <script setup lang="ts">
 import { h, ref, onMounted, onUnmounted } from 'vue'
-import videoSrc from '../assets/ISAGES-SPOT-VIDEO-RENTREE-ACADEMIQUE-2024-2025-HD-official.mp4'
+// Video is served from public folder to avoid Git size limits
+const videoSrc = '/ISAGES-SPOT-VIDEO-RENTREE-ACADEMIQUE-2024-2025-HD-official.mp4'
 import bienvenueImage from '../assets/opticien-lunetier-isages.png'
 import flyerSanteVisuelle from '../assets/flyer_sante_visuelle.jpeg'
 import flyerSanteVisuelleScience from '../assets/flyer_sante_visuelle_science_paramedicale.jpeg'
